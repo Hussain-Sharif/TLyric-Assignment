@@ -1,0 +1,17 @@
+.about-main-bg{
+    width: 95%;
+    padding: 10px;
+    list-style-type: none;
+    /* border: red solid 1px; */
+    align-self: center;
+    display: flex;
+    flex-direction:row;
+    justify-content: space-between;
+    align-items: center;
+    overflow-x: auto;
+}
+.details-item{
+    /* border: blue solid 1px; */
+    min-width: 300px;
+    margin: 10px;
+}

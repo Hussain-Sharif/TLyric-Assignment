@@ -1,0 +1,28 @@
+
+.tab-item{
+    background-color: transparent;
+    border: grey solid 1px;
+    border-radius: 8px;
+    width: 120px;
+    margin: 10px;
+    
+}
+.tab-item-selected{
+    border: red solid 2px;
+}
+.tab-button{
+    cursor: pointer;
+    outline: none;
+    background-color: transparent;
+    border: none;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    padding: 10px;
+}
+.tab-button img{
+    margin-right: 10px;
+}
+

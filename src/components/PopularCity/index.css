@@ -1,0 +1,53 @@
+.popular-city-main-bg{
+    width: 95%;
+    align-self: center;
+    background-color: transparent;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: flex-start;
+}
+
+.popular-city-main-bg h1{
+    color: black;
+    font-weight: bold;
+}
+.popular-city-main-bg p{
+    color: grey;
+}
+
+.tabs-list{
+    overflow: auto;
+    list-style-type: none;
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    background-color: transparent;
+}
+
+.views-list{
+    overflow: auto;
+    width: 100%;
+    list-style-type: none;
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    align-items: center; 
+    background-color: transparent;
+}
+@media screen and (max-width:767px){
+    .views-list{
+        display: none;
+    }
+}
+
+.all-cities-btn{
+    align-self: center;
+    padding: 10px;
+    border: rgb(213, 63, 88) solid 2px;
+    border-radius: 8px;
+    font-size: 24px;
+    color: rgb(213, 63, 88);
+}

@@ -1,0 +1,117 @@
+.navbar-main-bg{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+    padding-left: 15px;
+    padding-right: 25px;
+    position: fixed;
+    transition: 0.2s;
+}
+.scrolled-navbar{
+    color: #000 !important;
+    background-color: #fff !important; 
+}
+
+.navbar-logo{
+    color: #fff;
+    font-weight: bolder;
+    margin-left: 15px;
+    font-size: 35px;
+}
+
+/* Nav Bar toggle Button for small devices and large devices */
+.toggle-btn{
+    display: none;
+    background-color: transparent;
+    outline: none;
+    cursor: pointer;
+    border: none;
+}
+@media screen and (max-width:768px) {
+    .toggle-btn{
+        display: block;
+    }
+}
+
+.navbar-items{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    list-style-type:none;
+    min-width: 600px;
+    /* border: #000 solid 1px; */
+}
+@media screen and (max-width:768px) {
+    .navbar-items{
+        display: none;
+    }
+}
+
+/* Navbar Items styles */
+.navbar-item{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+}
+.navbar-item:hover{
+    background-color: #ffffff2c;
+    border-radius: 10px;
+    padding: 10px;
+}
+
+.navbar-item p{
+    color: #fff;
+    font-weight: 400;
+    font-size: 18px;
+    margin-left: 10px;
+}
+
+.navbar-item-icon{
+    font-size: 22px;
+    color: #fff;
+}
+
+.navbar-button{
+    background-color: transparent;
+    border: #fff solid 1px;
+    border-radius: 8px;
+    cursor: pointer;
+    outline: none;
+    padding: 5px;
+    font-size: 18px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    color: #fff;
+}
+.navbar-button:hover{
+    background-color: #fff;
+    color: #000;
+}
+.login-icon{
+    margin-right: 10px;
+    font-size: 22px;
+}
+.contact-icon{
+    font-size: 22px;
+    margin-right: 10px;
+    color: auto;
+}
+.toggle-bars-icon{
+    font-size: 22px;
+}
+@media screen and (max-width:768px) {
+    .toggle-bars-icon{
+        color: #fff;
+    }
+}
+
+
+.navbar-item-button:hover{
+    background-color: transparent;
+}

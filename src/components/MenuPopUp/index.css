@@ -1,0 +1,97 @@
+.toggle-bars-icon{
+    font-size: 22px;
+}
+@media screen and (max-width:768px) {
+    .toggle-bars-icon{
+        color: #fff;
+    }
+}
+.toggle-cross-icon{
+    font-size: 22px;
+    color: rgb(29, 57, 146);
+    background-color: rgba(59, 78, 141, 0.336);
+    border-radius: 20px;
+}
+.Menu-main-bg{
+    width:100vw;
+    height: 100vh;
+    overflow: auto;
+    background-color: #fff;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+}
+.Menu-main-bg div{
+    border: #00000064 solid 1px;
+    width: 100%;
+}
+.Menu-top{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+    padding: 10px;
+    border-bottom: #00000064 solid 1px;
+}
+
+.Menu-part{
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: flex-start;
+    align-self: flex-start;
+    padding-left: 10px;
+    padding-top: 10px;
+    border-bottom: #00000064 solid 1px;
+    width: 100%;
+
+}
+.part-item{
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    align-items: center;
+    margin-bottom: 15px;
+    cursor: pointer;
+}
+.part-item p{
+    font-size: 20px;
+    margin-left: 10px;
+}
+.part-item-icon{
+    font-size: 20px;
+    color: #000;
+}
+
+.login-item{
+    margin-top: 10px;
+    width: 90%;
+    align-self: center;
+}
+.login-item button{
+    color: grey;
+    background-color: rgba(148, 148, 148, 0.406);
+    border: none;
+    cursor: pointer;
+    /* border-radius: 10px; */
+    padding: 10px;
+    width: 100%;
+}
+.login-button-contianer{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    padding: 10px;
+}
+.login-button{
+    width: 90%;
+    border: #00000064 solid 1px;
+    border-radius: 10px;
+    padding: 10px;
+    color: #000;
+    font-size: 25px;
+    background-color: transparent;
+}
