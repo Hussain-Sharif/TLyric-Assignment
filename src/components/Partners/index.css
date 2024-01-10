@@ -1,0 +1,53 @@
+
+.partners-main-bg{
+    margin-top: 20px;
+    list-style-type: none;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    align-items: center;
+    width: 95%;
+    flex-wrap: wrap;
+}
+.partners-main-bg:hover{
+    transition: all 0.2s alternate;
+}
+
+.partner-Item{
+    background-image: url("https://prod-static-assets.amberstudent.com/images/home_mobile_partner_with_us.png?auto=format&q=10");
+    background-size: cover;
+    min-width: 350px;
+    min-height: 250px;
+    /* width: 80%;      */
+
+    padding: 10px;
+    margin:10px;
+    border-radius: 10px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: flex-start;
+}
+
+.partner-Item h1{
+    color: #fff;
+    font-weight: bolder;
+}
+.partner-Item p{
+    color: #fff;
+    font-weight: bold;
+}
+.partner-button{
+    outline: none;
+    cursor: pointer;
+    border: none;
+    border-radius: 10px;
+    padding: 10px;
+    font-size: 10px;
+    color: #fff;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    background-color: rgb(0, 70, 160);
+}

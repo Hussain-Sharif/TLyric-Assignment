@@ -1,4 +1,5 @@
 .popular-city-main-bg{
+    margin-top: 20px;
     width: 95%;
     align-self: center;
     background-color: transparent;
@@ -28,14 +29,17 @@
 }
 
 .views-list{
-    overflow: auto;
+    overflow: hidden;
     width: 100%;
     list-style-type: none;
     display: flex;
     flex-direction: row;
     justify-content: flex-start;
-    align-items: center; 
+    align-items: flex-start; 
     background-color: transparent;
+    flex-wrap: wrap;
+    max-height: 60vh;
+    /* border: red solid 1px; */
 }
 @media screen and (max-width:767px){
     .views-list{
@@ -49,5 +53,6 @@
     border: rgb(213, 63, 88) solid 2px;
     border-radius: 8px;
     font-size: 24px;
+    background-color: transparent;
     color: rgb(213, 63, 88);
 }

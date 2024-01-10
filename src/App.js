@@ -5,6 +5,7 @@ import MenuToggoleContext from './contexts/MenuToggoleContext'
 import About from './components/About';
 import './App.css'
 import PopularCity from './components/PopularCity';
+import Partners from './components/Partners';
 // 1/7 part is done
 class App extends Component{
   state={
@@ -25,6 +26,7 @@ class App extends Component{
           <NavHeader/>
           <About/>
           <PopularCity/>
+          <Partners/>
           </>}
         </div>
       </MenuToggoleContext.Provider>

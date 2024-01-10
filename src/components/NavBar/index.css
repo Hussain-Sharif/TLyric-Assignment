@@ -10,9 +10,14 @@
     transition: 0.2s;
 }
 .scrolled-navbar{
+    margin-top: 0;
     color: #000 !important;
-    background-color: #fff !important; 
+    background-color: #ffffffe6 !important; 
 }
+.scrolled-navbar h1{
+    color: #000 !important;
+}
+
 
 .navbar-logo{
     color: #fff;
@@ -20,6 +25,7 @@
     margin-left: 15px;
     font-size: 35px;
 }
+
 
 /* Nav Bar toggle Button for small devices and large devices */
 .toggle-btn{
@@ -114,4 +120,15 @@
 
 .navbar-item-button:hover{
     background-color: transparent;
+}
+
+
+/* Scrolled Stylings */
+.scrolled-change{
+    color: #000 !important;
+}
+.scrolled-change-button{
+    border: grey solid 1px;
+    color: #000;
+    border-radius: 8px;
 }
