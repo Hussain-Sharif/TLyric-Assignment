@@ -29,7 +29,7 @@
 }
 
 .views-list{
-    overflow: hidden;
+    align-self: center;
     width: 100%;
     list-style-type: none;
     display: flex;
@@ -38,8 +38,8 @@
     align-items: flex-start; 
     background-color: transparent;
     flex-wrap: wrap;
-    max-height: 60vh;
-    /* border: red solid 1px; */
+    height: 55vh;
+    overflow:auto;
 }
 @media screen and (max-width:767px){
     .views-list{
@@ -55,4 +55,5 @@
     font-size: 24px;
     background-color: transparent;
     color: rgb(213, 63, 88);
+    margin-top: 10px;
 }
